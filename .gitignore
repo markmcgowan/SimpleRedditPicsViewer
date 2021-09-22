@@ -1,0 +1,34 @@
+# dependency cache
+node_modules
+.cache
+
+# build
+build/
+dist/
+.netlify
+
+# logs
+npm-debug.log
+yarn-error.log
+
+# editor config
+.idea
+*.iml
+
+# OS files
+*.DS_Store
+
+# Tern
+.tern-port
+
+db-local/
+
+# DON'T check these in.
+/certs
+
+build.log
+
+# jenkins
+jdefaults
+!/yarn.lock
+
