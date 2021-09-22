@@ -1,5 +1,6 @@
 # dependency cache
 node_modules
+yarn.lock
 .cache
 
 # build
@@ -31,4 +32,3 @@ build.log
 # jenkins
 jdefaults
 !/yarn.lock
-
