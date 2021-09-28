@@ -63,7 +63,6 @@ const PostList = memo(() => {
       <div
         style={{ width: "100vw", height: "100vh", display: "flex", flexDirection: "column", overflow: "scroll"}}
       >
-        {console.log("ViewPost", viewPost)}
         <div style={{ margin: "10px"}}>
           {viewPost.data.url && viewPost.data.url!=="default" && viewPost.data.url!=="self" && (
             <img src={viewPost.data.url} />
