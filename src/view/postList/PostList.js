@@ -65,8 +65,8 @@ const PostList = memo(() => {
       >
         {console.log("ViewPost", viewPost)}
         <div style={{ margin: "10px"}}>
-          {viewPost.data.thumbnail && viewPost.data.thumbnail!=="default" && viewPost.data.thumbnail!=="self" && (
-            <img src={viewPost.data.thumbnail} />
+          {viewPost.data.url && viewPost.data.url!=="default" && viewPost.data.url!=="self" && (
+            <img src={viewPost.data.url} />
           )}
           <div>
             {viewPost.data.content_categories &&
