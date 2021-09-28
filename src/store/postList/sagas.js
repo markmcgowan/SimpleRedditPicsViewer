@@ -1,4 +1,3 @@
-import "regenerator-runtime/runtime";
 import { put, takeEvery } from 'redux-saga/effects'
 import * as a from './actions'
 import * as c from './constants'

@@ -32,3 +32,5 @@ build.log
 # jenkins
 jdefaults
 !/yarn.lock
+yarn.lock
+*.lock
